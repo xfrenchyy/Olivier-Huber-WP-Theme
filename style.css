@@ -1,0 +1,95 @@
+  /*
+  Theme Name: Olivier-Huber-Theme
+  Author: Olivier-Huber
+  Author URI: https://www.graphicandwebdesign.ca
+  Description: Student learning theme
+  Version: 1.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+  Tested up to: 6.7
+  Requires PHP: 7
+  Text Domain: olivier-huber
+
+  This theme, like WordPress, is licensed under the GPL.
+  Use it to make something cool, have fun, and share what you've learned with others.
+  */
+
+  /* END STEP 2.1 */
+
+  /* START STEP 2.2 */
+
+/* COLOR PALETTE */
+:root {
+    --main-bg-color: rgb(255, 255, 255);
+    --main-fg-color: rgb(1, 35, 70);
+    --titles-color: #1c0263;
+    --bodytext-color: #444444;
+    --accent-color: rgb(63, 77, 159);
+    --highlight-color: #f3c;
+    --default-font: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+h1.h2,h3,h4,h5,h6,legend,label {
+    color: var(--titles-color);
+}
+
+p,li {
+    color: var(--bodytext-color);
+}
+
+a:link {
+    color: var(--accent-color);
+}
+
+a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--bodytext-color);
+    text-decoration: dotted;
+}
+
+a:active {
+    color: var(--highlight-color);
+}
+
+html {font-size: 100%;}    
+
+/* required wordpress classes */
+.wp-caption {
+    font-family: var(--default-font);
+}
+
+.wp-caption-text {
+     font-family: var(--default-font);
+}
+
+.screen-reader-text  {
+     font-family: var(--default-font);
+}
+
+.sticky {
+     font-family: var(--default-font);
+}
+
+.gallery-caption {
+     font-family: var(--default-font);
+} 
+
+.bypostauthor {
+     font-family: var(--default-font);
+} 
+
+.alignright {text-align: right;}
+
+.alignleft {text-align: left;}
+
+.aligncenter {text-align: center;}  
+
+/* END STEP 2.2 */      
